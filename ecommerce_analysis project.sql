@@ -41,8 +41,7 @@ select distinct * from sales_data;
 drop table sales_data;
 alter table temp_table rename to sales_data;
 select count(*) from sales_data;
--- another method remove duplicate data with help of using delete row_number and partition by
--- 
+-- another method remove duplicate data with help of using delete row_number and partition by.
 -- basic queries
 -- 1.view data
 select * from sales_data;
